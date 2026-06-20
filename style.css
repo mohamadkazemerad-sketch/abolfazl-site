@@ -1105,3 +1105,37 @@ font-size:18px;
 color:#555;
 
 }
+
+.request-form{
+    padding:80px 8%;
+    background:#fff !important;
+    text-align:center;
+}
+
+
+.request-form h2{
+    color:#d4af37;
+}
+
+
+.request-form p{
+    color:#555;
+}
+
+
+.request-form form{
+
+    max-width:550px;
+    margin:auto;
+
+    background:linear-gradient(145deg,#222,#111) !important;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    border:1px solid rgba(212,175,55,0.5);
+
+    box-shadow:0 15px 45px rgba(0,0,0,0.35);
+
+}
