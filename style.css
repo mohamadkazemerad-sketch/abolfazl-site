@@ -618,6 +618,14 @@ footer a {
     color:white;
 }
 
+.offer {
+    transition: 0.3s;
+}
+
+.offer:hover {
+    transform: translateY(-8px);
+}
+
 .offer h2 {
     color:white;
     margin-bottom: 15px;
