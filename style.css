@@ -821,5 +821,12 @@ footer a {
 
 .hero-content {
     max-width: 600px;
-    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h2,
+.hero p {
+    color: white;
 }
