@@ -598,3 +598,8 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
+
+.call-section a {
+    margin: 8px;
+    display: inline-block;
+}
