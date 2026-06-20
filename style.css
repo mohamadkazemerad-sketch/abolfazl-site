@@ -658,3 +658,8 @@ footer a {
 .sms-text {
     margin-top: 25px !important;
 }
+
+footer a {
+    display: block;
+    margin: 12px 0;
+}
