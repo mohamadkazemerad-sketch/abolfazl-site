@@ -613,14 +613,17 @@ footer a {
     padding: 25px;
     border-radius: 25px;
     text-align: center;
-    background:withe;
+    background:#111;
     box-shadow: 0 0 20px rgba(255, 193, 7, 0.5);
+    color:white;
 }
 
 .offer h2 {
+    color:white;
     margin-bottom: 15px;
 }
 
 .offer p {
+    color:white;
     font-size: 18px;
 }
