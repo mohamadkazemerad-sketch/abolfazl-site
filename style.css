@@ -671,3 +671,28 @@ footer a {
     display: block;
     margin: 12px 0;
 }
+
+.location {
+    margin: 40px 20px;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    background: #111;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.5);
+    transition: 0.3s;
+}
+
+.location:hover {
+    transform: translateY(-8px);
+}
+
+.location h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.location p {
+    color: white;
+    font-size: 17px;
+}
