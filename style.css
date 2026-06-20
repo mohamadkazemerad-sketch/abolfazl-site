@@ -803,3 +803,23 @@ footer a {
 .hero-content {
     text-shadow: 0 3px 10px rgba(0,0,0,0.6);
 }
+
+.logo {
+    background: rgba(0,0,0,0.45);
+    padding: 15px 25px;
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.logo-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+
+.logo p {
+    color: #ffd700;
+    margin-top: 8px;
+}
