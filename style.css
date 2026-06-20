@@ -649,3 +649,12 @@ footer .sms-text {
 .sms-text {
     margin-top: 25px;
 }
+
+footer a {
+    display: block;
+    margin: 10px 0;
+}
+
+.sms-text {
+    margin-top: 25px !important;
+}
