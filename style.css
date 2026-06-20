@@ -990,3 +990,113 @@ height:120px;
 resize:none;
 
 }
+
+.request-form{
+
+padding:80px 8%;
+
+background:linear-gradient(135deg,#111,#1a1a1a);
+
+text-align:center;
+
+}
+
+
+
+.request-form h2{
+
+font-size:38px;
+
+color:#d4af37;
+
+margin-bottom:15px;
+
+}
+
+
+
+.request-form p{
+
+color:#ccc;
+
+margin-bottom:35px;
+
+font-size:18px;
+
+}
+
+
+
+.request-form form{
+
+max-width:550px;
+
+margin:auto;
+
+background:#0b0b0b;
+
+padding:35px;
+
+border-radius:20px;
+
+border:1px solid rgba(212,175,55,0.3);
+
+box-shadow:0 10px 40px rgba(0,0,0,0.5);
+
+}
+
+
+
+.request-form input,
+.request-form select,
+.request-form textarea{
+
+width:100%;
+
+padding:16px;
+
+margin-bottom:18px;
+
+background:#151515;
+
+color:white;
+
+border:1px solid #333;
+
+border-radius:12px;
+
+font-size:16px;
+
+outline:none;
+
+}
+
+
+
+.request-form input:focus,
+.request-form textarea:focus,
+.request-form select:focus{
+
+border-color:#d4af37;
+
+}
+
+
+
+.request-form button{
+
+width:100%;
+
+background:#d4af37;
+
+color:#000;
+
+font-weight:bold;
+
+padding:16px;
+
+border-radius:30px;
+
+font-size:18px;
+
+}
