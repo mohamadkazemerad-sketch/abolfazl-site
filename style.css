@@ -631,3 +631,12 @@ footer a {
 footer .sms-text {
     margin-top: 20px;
 }
+
+.footer-phone {
+    display: inline-block;
+    margin: 8px;
+}
+
+.sms-text {
+    margin-top: 25px;
+}
