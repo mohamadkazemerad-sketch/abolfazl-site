@@ -723,12 +723,17 @@ footer a {
 
 .call-section {
     margin: 40px 20px;
-    padding: 30px 20px;
-    border-radius: 25px;
+    padding: 35px 20px;
+    border-radius: 30px;
     text-align: center;
-    background: #1c1c1c;
+    background: linear-gradient(135deg, #06233f, #0b5fa5);
     color: white;
-    box-shadow: 0 0 20px rgba(0, 150, 255, 0.4);
+    box-shadow: 0 10px 30px rgba(0, 80, 180, 0.5);
+    transition: 0.3s;
+}
+
+.call-section:hover {
+    transform: translateY(-6px);
 }
 
 .call-section h2 {
@@ -736,7 +741,7 @@ footer a {
 }
 
 .call-section p {
-    color: #ddd;
+    color: #e8e8e8;
     margin: 15px 0;
 }
 
