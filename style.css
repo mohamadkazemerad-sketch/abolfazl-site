@@ -640,3 +640,12 @@ footer .sms-text {
 .sms-text {
     margin-top: 25px;
 }
+
+.footer-phones a {
+    display: block;
+    margin: 10px auto;
+}
+
+.sms-text {
+    margin-top: 25px;
+}
