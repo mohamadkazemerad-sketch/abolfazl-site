@@ -784,7 +784,9 @@ footer a {
     border-radius: 25px;
 
     border: 2px solid rgba(255,193,7,0.35);
-    
+
+    overflow: hidden;
+
     position: relative;
 
     box-shadow:
