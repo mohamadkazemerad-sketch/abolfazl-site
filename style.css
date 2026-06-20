@@ -45,25 +45,6 @@ header {
     font-weight: bold;
 }
 
-.hero {
-    min-height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    background-image: url("hero.jpg");
-    background-size: cover;
-    background-position: center;
-
-    border-radius: 0 0 35px 35px;
-    overflow: hidden;
-}
-
-.hero-content {
-    max-width: 600px;
-}
-
 .hero h2 {
     font-size: 45px;
     margin-bottom: 20px;
@@ -794,15 +775,6 @@ footer a {
     transform: translateY(-5px);
 }
 
-.hero {
-    border-radius: 0 0 35px 35px;
-    overflow: hidden;
-}
-
-.hero-content {
-    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
-}
-
 .logo {
     background: rgba(10,10,10,0.65);
     padding: 18px 30px;
@@ -830,11 +802,24 @@ footer a {
 }
 
 .hero {
-    position: relative;
+    min-height: 450px;
+    padding: 40px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 0 0 35px 35px;
     overflow: hidden;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 2;
+    max-width: 600px;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
 }
