@@ -794,3 +794,12 @@ footer a {
 .location a:hover {
     transform: translateY(-5px);
 }
+
+.hero {
+    border-radius: 0 0 35px 35px;
+    overflow: hidden;
+}
+
+.hero-content {
+    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+}
