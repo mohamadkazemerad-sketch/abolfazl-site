@@ -1281,3 +1281,68 @@ color:#ddd;
 line-height:1.8;
 
 }
+
+.works{
+
+padding:70px 8%;
+
+background:#fff;
+
+text-align:center;
+
+}
+
+
+.works h2{
+
+font-size:35px;
+
+color:#d4af37;
+
+margin-bottom:40px;
+
+}
+
+
+
+.work-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.work-box img{
+
+width:320px;
+
+height:240px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+border:2px solid #d4af37;
+
+box-shadow:
+0 0 25px rgba(212,175,55,0.35),
+0 15px 40px rgba(0,0,0,0.3);
+
+transition:.3s;
+
+}
+
+
+
+.work-box img:hover{
+
+transform:scale(1.05);
+
+}
