@@ -922,3 +922,71 @@ header {
 
     border-radius: 25px 25px 0 0;
 }
+
+
+.request-form{
+
+padding:70px 8%;
+
+text-align:center;
+
+background:#111;
+
+}
+
+
+.request-form h2{
+
+color:#d4af37;
+
+font-size:35px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.request-form form{
+
+max-width:500px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+
+
+.request-form input,
+.request-form select,
+.request-form textarea{
+
+padding:15px;
+
+background:#222;
+
+border:1px solid #333;
+
+color:white;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+
+
+.request-form textarea{
+
+height:120px;
+
+resize:none;
+
+}
