@@ -700,11 +700,16 @@ footer a {
 .contact {
     margin: 40px 20px;
     padding: 30px 20px;
-    border-radius: 25px;
+    border-radius: 30px;
     text-align: center;
-    background: #111;
+    background: linear-gradient(135deg, #101b3a, #243b7a);
     color: white;
-    box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+    box-shadow: 0 10px 30px rgba(40, 70, 180, 0.45);
+    transition: 0.3s;
+}
+
+.contact:hover {
+    transform: translateY(-6px);
 }
 
 .contact h2 {
