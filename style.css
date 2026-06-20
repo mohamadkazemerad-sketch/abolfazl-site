@@ -774,3 +774,18 @@ footer a {
     margin: 10px 0;
     color: white;
 }
+
+.location a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.location a:hover {
+    transform: translateY(-5px);
+}
