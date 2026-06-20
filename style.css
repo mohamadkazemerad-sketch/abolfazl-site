@@ -811,10 +811,10 @@ footer a {
 
     text-align: center;
 
-  background:
-linear-gradient(rgba(0,0,0,0.55), rgba(20,20,20,0.65)),
+background:
+linear-gradient(rgba(255,255,255,0.05), rgba(0,0,0,0.25)),
 url("hero.jpg");
-
+    
     background-size: cover;
     background-position: center;
 
