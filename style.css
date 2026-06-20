@@ -720,3 +720,27 @@ footer a {
     display: inline-block;
     margin-top: 15px;
 }
+
+.call-section {
+    margin: 40px 20px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;
+    background: #1c1c1c;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 150, 255, 0.4);
+}
+
+.call-section h2 {
+    color: white;
+}
+
+.call-section p {
+    color: #ddd;
+    margin: 15px 0;
+}
+
+.call-section a {
+    display: inline-block;
+    margin: 8px;
+}
