@@ -627,3 +627,7 @@ footer a {
     color:white;
     font-size: 18px;
 }
+
+footer .sms-text {
+    margin-top: 20px;
+}
