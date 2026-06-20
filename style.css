@@ -674,17 +674,17 @@ footer a {
 
 .location {
     margin: 40px 20px;
-    padding: 25px;
-    border-radius: 25px;
+    padding: 30px 20px;
+    border-radius: 30px;
     text-align: center;
-    background: #111;
+    background: linear-gradient(135deg, #063d2a, #0b7a4b);
     color: white;
-    box-shadow: 0 0 20px rgba(255, 193, 7, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 150, 100, 0.4);
     transition: 0.3s;
 }
 
 .location:hover {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
 }
 
 .location h2 {
