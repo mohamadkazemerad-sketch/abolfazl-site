@@ -749,3 +749,28 @@ footer a {
     display: inline-block;
     margin: 8px;
 }
+
+footer {
+    margin: 40px 20px;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1a1a, #3b2b05);
+    color: white;
+    box-shadow: 0 10px 30px rgba(255, 193, 7, 0.35);
+}
+
+footer h2 {
+    color: white;
+}
+
+footer p {
+    color: #ddd;
+    margin: 15px 0;
+}
+
+footer a {
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
