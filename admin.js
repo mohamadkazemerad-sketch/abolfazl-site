@@ -52,6 +52,7 @@ box.innerHTML += `
 
 <p>${item.message}</p>
 
+<p>🕒 ${item.date}</p>
 
 <button onclick="deleteRequest(${index})">
 حذف
