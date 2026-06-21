@@ -10,7 +10,7 @@ document.querySelector("#login").style.display="none";
 document.querySelector("#panel").style.display="block";
 
 
-loadRequests();
+showRequests();
 
 
 }else{
@@ -21,56 +21,71 @@ alert("رمز اشتباه است");
 
 }
 
+
+
+function showRequests(){
+
+
 let requests = JSON.parse(localStorage.getItem("requests")) || [];
+
 
 let box = document.querySelector("#requests");
 
-let count = document.querySelector("#count");
 
-
-count.innerHTML = 
+document.querySelector("#count").innerHTML =
 "تعداد درخواست‌ها: " + requests.length;
+
 
 
 requests.forEach(function(item,index){
 
-    box.innerHTML += `
 
-    <div class="request-card">
+box.innerHTML += `
 
-        <h3>${item.name}</h3>
+<div class="request-card">
 
-        <p>📞 شماره: ${item.phone}</p>
+<h3>${item.name}</h3>
 
-        <p>🔧 خدمات: ${item.service}</p>
+<p>📞 ${item.phone}</p>
 
-        <p>${item.message}</p>
+<p>🔧 ${item.service}</p>
 
-
-        <button onclick="deleteRequest(${index})">
-        حذف درخواست
-        </button>
+<p>${item.message}</p>
 
 
-    </div>
+<button onclick="deleteRequest(${index})">
+حذف
+</button>
 
-    `;
+
+</div>
+
+`;
+
 
 });
+
+
+}
 
 
 
 function deleteRequest(index){
 
-    requests.splice(index,1);
+
+let requests = JSON.parse(localStorage.getItem("requests")) || [];
 
 
-    localStorage.setItem(
-        "requests",
-        JSON.stringify(requests)
-    );
+requests.splice(index,1);
 
 
-    location.reload();
+localStorage.setItem(
+"requests",
+JSON.stringify(requests)
+);
+
+
+location.reload();
+
 
 }
