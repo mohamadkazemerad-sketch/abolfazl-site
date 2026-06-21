@@ -1397,3 +1397,19 @@ color:#d4af37;
 margin-top:40px;
 
 }
+
+.request-card button{
+
+background:#d4af37;
+
+border:none;
+
+padding:12px 25px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+font-weight:bold;
+
+}
