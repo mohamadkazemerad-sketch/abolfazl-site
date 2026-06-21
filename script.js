@@ -34,8 +34,6 @@ const requestForm = document.querySelector(".request-form form");
 
 requestForm.addEventListener("submit", function(e){
 
-    alert("وصل شد")
-
     e.preventDefault();
 
     let requests =
