@@ -1534,3 +1534,25 @@ font-size:22px;
 }
 
 }
+
+.admin-btn{
+
+display:block;
+
+text-align:center;
+
+margin:30px;
+
+color:#888;
+
+font-size:14px;
+
+text-decoration:none;
+
+}
+
+.admin-btn:hover{
+
+color:#d4af37;
+
+}
