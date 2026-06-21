@@ -65,5 +65,3 @@ requestForm.addEventListener("submit", function(e){
     requestForm.reset();
 
 });
-
-alert("script اجرا شد");
