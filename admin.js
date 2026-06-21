@@ -36,8 +36,7 @@ document.querySelector("#count").innerHTML =
 "تعداد درخواست‌ها: " + requests.length;
 
 
-
-requests.forEach(function(item,index){
+requests.reverse().forEach(function(item,index){
 
 
 box.innerHTML += `
