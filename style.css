@@ -1501,3 +1501,36 @@ color:#d4af37;
 font-size:28px;
 
 }
+
+@media(max-width:600px){
+
+#login{
+
+width:85%;
+
+margin:60px auto;
+
+}
+
+
+#panel{
+
+padding:20px;
+
+}
+
+
+.request-card{
+
+width:90%;
+
+}
+
+
+#count{
+
+font-size:22px;
+
+}
+
+}
