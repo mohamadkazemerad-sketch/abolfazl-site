@@ -1413,3 +1413,91 @@ cursor:pointer;
 font-weight:bold;
 
 }
+
+body{
+
+background:#fff;
+
+font-family:tahoma;
+
+}
+
+
+#login{
+
+width:350px;
+
+margin:100px auto;
+
+padding:35px;
+
+background:linear-gradient(145deg,#050505,#1c1c1c);
+
+border-radius:25px;
+
+border:2px solid #d4af37;
+
+box-shadow:0 0 30px rgba(212,175,55,0.35);
+
+text-align:center;
+
+}
+
+
+#login h2{
+
+color:#d4af37;
+
+}
+
+
+
+#password{
+
+width:90%;
+
+padding:12px;
+
+margin:20px 0;
+
+border-radius:15px;
+
+border:none;
+
+}
+
+
+
+#login button{
+
+background:#d4af37;
+
+border:none;
+
+padding:12px 30px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+}
+
+
+
+#panel{
+
+padding:40px 8%;
+
+}
+
+
+
+#count{
+
+text-align:center;
+
+color:#d4af37;
+
+font-size:28px;
+
+}
