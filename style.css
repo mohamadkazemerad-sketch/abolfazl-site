@@ -1575,3 +1575,29 @@ transition:.3s;
 transform:scale(1.1);
 
 }
+
+.admin-header{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+
+.admin-header h1{
+
+color:#d4af37;
+
+font-size:32px;
+
+}
+
+
+.admin-header p{
+
+color:#777;
+
+font-size:18px;
+
+}
