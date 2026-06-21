@@ -1,3 +1,26 @@
+function login(){
+
+let pass = document.querySelector("#password").value;
+
+
+if(pass === "1234"){
+
+document.querySelector("#login").style.display="none";
+
+document.querySelector("#panel").style.display="block";
+
+
+loadRequests();
+
+
+}else{
+
+alert("رمز اشتباه است");
+
+}
+
+}
+
 let requests = JSON.parse(localStorage.getItem("requests")) || [];
 
 let box = document.querySelector("#requests");
