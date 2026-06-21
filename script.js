@@ -49,7 +49,7 @@ requestForm.addEventListener("submit", function(e){
 
         message: requestForm.querySelector("textarea").value
 
-        date: new Date().toLocaleString()
+        date: new Date().toLocaleString(),
 
     };
 
