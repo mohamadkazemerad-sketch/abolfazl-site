@@ -32,36 +32,44 @@ form.addEventListener("submit", function(e){
 
 const requestForm = document.querySelector(".request-form form");
 
+
 requestForm.addEventListener("submit", function(e){
 
     e.preventDefault();
 
+
     let requests =
     JSON.parse(localStorage.getItem("requests")) || [];
 
+
     let data = {
 
-        name: requestForm.querySelector("input").value,
+        name: requestForm.querySelectorAll("input")[0].value,
 
         phone: requestForm.querySelectorAll("input")[1].value,
 
         service: requestForm.querySelector("select").value,
 
-        message: requestForm.querySelector("textarea").value
+        message: requestForm.querySelector("textarea").value,
 
-        date: new Date().toLocaleString(),
+        date: new Date().toLocaleString()
 
     };
 
+
     requests.push(data);
+
 
     localStorage.setItem(
         "requests",
         JSON.stringify(requests)
     );
 
+
     alert("درخواست با موفقیت ثبت شد ✅");
 
+
     requestForm.reset();
+
 
 });
